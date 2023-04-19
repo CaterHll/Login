@@ -12,13 +12,13 @@ driver.get("https://www.betika.com/en-ke/login")
 # find the email input field and enter the email
 email_input = WebDriverWait(driver, 10).until(
     EC.presence_of_element_located((By.XPATH, "//input[contains(@type,'text')]")))
-email_input.send_keys("254728214630")
+email_input.send_keys("254735638271")
 
 # find the password input field and enter the password
 password_input = WebDriverWait(driver, 10).until(
     EC.presence_of_element_located((By.XPATH, "//input[contains(@type,'password')]"))
 )
-password_input.send_keys("kiplangat")
+password_input.send_keys("2020")
 
 # find the login button and click it
 login_button = WebDriverWait(driver, 10).until(
